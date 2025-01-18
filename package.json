@@ -1,0 +1,29 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "a Backend for LMS application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "lms",
+    "paymentgateway",
+    "express"
+  ],
+  "author": "\"Siddhant Gureja\"",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.9.4",
+    "nodemon": "^3.1.9"
+  }
+}
